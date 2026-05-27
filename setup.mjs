@@ -82,7 +82,12 @@ console.log(username)
       noUnusedLocals: true,
       noUnusedParameters: true,
 
-      skipLibCheck: true
+      skipLibCheck: true,
+          "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
     },
 
     include: ["src"],
