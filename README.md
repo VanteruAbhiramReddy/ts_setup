@@ -15,7 +15,7 @@ After setup completes, delete:
 - .git
 - setup.mjs
 
-by rm -rf .git setup.mjs 
+by rm -rf ts_setup/.git ts_setup/setup.mjs
 on git bash.
 
 Then start building your actual project.
