@@ -1,7 +1,21 @@
-# Typescript setup
+# TypeScript Backend Setup
 
-## Command
+## Clone Repository
 
--- git clone https://github.com/VanteruAbhiramReddy/ts_setup
-After cloning go into the folder and do node setup.mjs.
-Then delete .git and setup.mjs before going into main project.
+git clone https://github.com/VanteruAbhiramReddy/ts_setup
+
+## Run Setup
+
+node ts_setup/setup.mjs
+
+## Cleanup
+
+After setup completes, delete:
+
+- .git
+- setup.mjs
+
+by rm -rf .git setup.mjs 
+on git bash.
+
+Then start building your actual project.
